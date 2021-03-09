@@ -1,6 +1,6 @@
 const Portfolio = () => {
     return (
-        <section class="text-gray-400 bg-gray-900 body-font">
+        <section class="text-gray-400 bg-gray-900 body-font" id="portfolio">
             <div class="container px-5 py-24 mx-auto flex flex-wrap">
                 <div class="flex w-full mb-20 flex-wrap">
                     <h1 class="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">

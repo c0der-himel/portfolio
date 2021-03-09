@@ -7,6 +7,10 @@
 @tailwind utilities;
 
 /* === Global CSS === */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Fira Code', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,4 +23,8 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+}
+
+header {
+    z-index: 99999 !important;
 }

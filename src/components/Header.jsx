@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <header class="text-gray-400 bg-gray-900 body-font sticky top-0">
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center z-50">
                 <a
                     href="/"
                     class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
@@ -18,20 +18,38 @@ const Header = () => {
                     >
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg>
-                    <span class="ml-3 text-xl">Tailblocks</span>
+                    <span class="ml-3 text-xl">Himel</span>
                 </a>
                 <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                    <a href="/" class="mr-5 hover:text-white">
-                        First Link
+                    <a
+                        href="#home"
+                        class="mr-5 hover:text-white cursor-pointer"
+                    >
+                        Home
                     </a>
-                    <a href="/" class="mr-5 hover:text-white">
-                        Second Link
+                    <a
+                        href="#about"
+                        class="mr-5 hover:text-white cursor-pointer"
+                    >
+                        About Me
                     </a>
-                    <a href="/" class="mr-5 hover:text-white">
-                        Third Link
+                    <a
+                        href="#skills"
+                        class="mr-5 hover:text-white cursor-pointer"
+                    >
+                        Skills
                     </a>
-                    <a href="/" class="mr-5 hover:text-white">
-                        Fourth Link
+                    <a
+                        href="#portfolio"
+                        class="mr-5 hover:text-white cursor-pointer"
+                    >
+                        Portfolio
+                    </a>
+                    <a
+                        href="#contact"
+                        class="mr-5 hover:text-white cursor-pointer"
+                    >
+                        Contact
                     </a>
                 </nav>
                 <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
