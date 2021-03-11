@@ -11,26 +11,27 @@ const ContactForm = () => {
 
     return (
         <section
-            class="text-gray-400 bg-gray-900 body-font relative z-0"
+            className="text-gray-400 bg-gray-900 body-font relative z-0"
             id="contact"
         >
-            <div class="container px-5 py-24 mx-auto">
-                <div class="lg:w-4/6 mx-auto">
-                    <div class="text-center mb-20">
-                        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
+            <div className="container px-5 py-24 mx-auto">
+                <div className="lg:w-4/6 mx-auto">
+                    <div className="text-center mb-20">
+                        <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
                             Contact
                         </h1>
-                        <div class="border-b-2 border-gray-800 border-opacity-75"></div>
+                        <div className="border-b-2 border-gray-800 border-opacity-75"></div>
                     </div>
                 </div>
-                <div class="lg:w-1/2 md:w-2/3 mx-auto">
-                    <form method="POST" name="contact" netlify>
-                        <div class="flex flex-wrap -m-2">
-                            <div class="p-2 w-1/2">
-                                <div class="relative">
+                <div className="lg:w-1/2 md:w-2/3 mx-auto">
+                    <form method="post" name="contact" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact" />
+                        <div className="flex flex-wrap -m-2">
+                            <div className="p-2 w-1/2">
+                                <div className="relative">
                                     <label
-                                        for="name"
-                                        class="leading-7 text-sm text-gray-400"
+                                        htmlFor="name"
+                                        className="leading-7 text-sm text-gray-400"
                                     >
                                         Name
                                     </label>
@@ -38,15 +39,15 @@ const ContactForm = () => {
                                         type="text"
                                         id="name"
                                         name="name"
-                                        class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                     />
                                 </div>
                             </div>
-                            <div class="p-2 w-1/2">
-                                <div class="relative">
+                            <div className="p-2 w-1/2">
+                                <div className="relative">
                                     <label
-                                        for="email"
-                                        class="leading-7 text-sm text-gray-400"
+                                        htmlFor="email"
+                                        className="leading-7 text-sm text-gray-400"
                                     >
                                         Email
                                     </label>
@@ -54,36 +55,36 @@ const ContactForm = () => {
                                         type="email"
                                         id="email"
                                         name="email"
-                                        class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                     />
                                 </div>
                             </div>
-                            <div class="p-2 w-full">
-                                <div class="relative">
+                            <div className="p-2 w-full">
+                                <div className="relative">
                                     <label
-                                        for="message"
-                                        class="leading-7 text-sm text-gray-400"
+                                        htmlFor="message"
+                                        className="leading-7 text-sm text-gray-400"
                                     >
                                         Message
                                     </label>
                                     <textarea
                                         id="message"
                                         name="message"
-                                        class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                                     ></textarea>
                                 </div>
                             </div>
-                            <div class="p-2 w-full">
+                            <div className="p-2 w-full">
                                 <button
                                     type="submit"
-                                    class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                                    className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
                                 >
                                     Send
                                 </button>
                             </div>
                             {success && (
-                                <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                                    <p class="text-green-400">
+                                <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+                                    <p className="text-green-400">
                                         Message successfully sent to
                                         himel777hussain@gmail.com
                                     </p>
