@@ -85,7 +85,6 @@ const ContactForm = () => {
                     </form>
                     <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
                         <p className="text-green-400">
-                            Message successfully sent to
                             himel777hussain@gmail.com
                         </p>
                     </div>
