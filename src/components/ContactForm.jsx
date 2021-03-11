@@ -1,4 +1,14 @@
+import { useEffect, useState } from 'react';
+
 const ContactForm = () => {
+    const [success, setSuccess] = useState(false);
+
+    useEffect(() => {
+        if (window.location.search.includes('success=true')) {
+            setSuccess(true);
+        }
+    }, []);
+
     return (
         <section
             class="text-gray-400 bg-gray-900 body-font relative z-0"
@@ -71,11 +81,14 @@ const ContactForm = () => {
                                     Send
                                 </button>
                             </div>
-                            <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                                <a href="/" class="text-green-400">
-                                    himel777hussain@gmail.com
-                                </a>
-                            </div>
+                            {success && (
+                                <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+                                    <p class="text-green-400">
+                                        Message successfully sent to
+                                        himel777hussain@gmail.com
+                                    </p>
+                                </div>
+                            )}
                         </div>
                     </form>
                 </div>
