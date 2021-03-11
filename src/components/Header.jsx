@@ -23,37 +23,42 @@ const Header = () => {
                 <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                     <a
                         href="#home"
-                        class="mr-5 hover:text-white cursor-pointer"
+                        class="mr-5 hover:text-green-500 cursor-pointer"
                     >
                         Home
                     </a>
                     <a
                         href="#about"
-                        class="mr-5 hover:text-white cursor-pointer"
+                        class="mr-5 hover:text-green-500 cursor-pointer"
                     >
                         About Me
                     </a>
                     <a
                         href="#skills"
-                        class="mr-5 hover:text-white cursor-pointer"
+                        class="mr-5 hover:text-green-500 cursor-pointer"
                     >
                         Skills
                     </a>
                     <a
                         href="#portfolio"
-                        class="mr-5 hover:text-white cursor-pointer"
+                        class="mr-5 hover:text-green-500 cursor-pointer"
                     >
                         Portfolio
                     </a>
                     <a
                         href="#contact"
-                        class="mr-5 hover:text-white cursor-pointer"
+                        class="mr-5 hover:text-green-500 cursor-pointer"
                     >
                         Contact
                     </a>
                 </nav>
-                <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-                    Button
+                <a
+                    href="https://www.linkedin.com/in/shahadat-himel/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="inline-flex items-center text-white bg-green-500 border-0 py-1 px-3 focus:outline-none hover:bg-green-600 rounded text-base mt-4 md:mt-0"
+                >
+                    Hire Me
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -65,7 +70,7 @@ const Header = () => {
                     >
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                </button>
+                </a>
             </div>
         </header>
     );
