@@ -1,4 +1,14 @@
+import { useEffect, useState } from 'react';
+
 const ContactForm = () => {
+    const [success, setSuccess] = useState(false);
+
+    useEffect(() => {
+        if (window.location.search.includes('success=true')) {
+            setSuccess(true);
+        }
+    }, []);
+
     return (
         <section
             className="text-gray-400 bg-gray-900 body-font relative z-0"
@@ -14,8 +24,16 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="lg:w-1/2 md:w-2/3 mx-auto">
-                    <form method="post" name="contact" data-netlify="true">
+                    <form
+                        method="post"
+                        name="contact"
+                        data-netlify="true"
+                        data-netlify-honeypot="bot-field"
+                    >
                         <input type="hidden" name="form-name" value="contact" />
+                        <div hidden>
+                            <input name="bot-field" />
+                        </div>
                         <div className="flex flex-wrap -m-2">
                             <div className="p-2 w-1/2">
                                 <div className="relative">
@@ -72,13 +90,16 @@ const ContactForm = () => {
                                     Send
                                 </button>
                             </div>
-                            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                                <p className="text-green-400">
-                                    himel777hussain@gmail.com
-                                </p>
-                            </div>
                         </div>
                     </form>
+                    {success && (
+                        <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+                            <p className="text-green-400">
+                                Message successfully sent to
+                                himel777hussain@gmail.com
+                            </p>
+                        </div>
+                    )}
                 </div>
             </div>
         </section>
