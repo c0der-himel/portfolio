@@ -1,10 +1,20 @@
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
+
 const ContactForm = () => {
+    toast.configure();
+
+    const notify = (event) => {
+        event.preventDefault();
+        toast.success('Message successfully sent');
+    };
+
     return (
         <section
             className="text-gray-400 bg-gray-900 body-font relative z-0"
             id="contact"
         >
-            <div className="container px-5 py-24 mx-auto">
+            <div className="container px-5 pt-24 pb-10 mx-auto">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="text-center mb-20">
                         <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
@@ -15,6 +25,7 @@ const ContactForm = () => {
                 </div>
                 <div className="lg:w-1/2 md:w-2/3 mx-auto">
                     <form
+                        // action="/success"
                         method="post"
                         name="contact"
                         data-netlify="true"
@@ -76,17 +87,13 @@ const ContactForm = () => {
                                 <button
                                     type="submit"
                                     className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                                    onClick={notify}
                                 >
                                     Send
                                 </button>
                             </div>
                         </div>
                     </form>
-                    <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                        <p className="text-green-400">
-                            himel777hussain@gmail.com
-                        </p>
-                    </div>
                 </div>
             </div>
         </section>
