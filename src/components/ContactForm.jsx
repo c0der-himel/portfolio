@@ -1,14 +1,4 @@
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.min.css';
-
 const ContactForm = () => {
-    toast.configure();
-
-    const notify = (event) => {
-        event.preventDefault();
-        toast.success('Message successfully sent');
-    };
-
     return (
         <section
             className="text-gray-400 bg-gray-900 body-font relative z-0"
@@ -25,12 +15,11 @@ const ContactForm = () => {
                 </div>
                 <div className="lg:w-1/2 md:w-2/3 mx-auto">
                     <form
-                        // action="/success"
+                        action="/success"
                         method="post"
                         name="contact"
                         data-netlify="true"
                         data-netlify-honeypot="bot-field"
-                        onSubmit={notify}
                     >
                         <input type="hidden" name="form-name" value="contact" />
                         <div hidden>
