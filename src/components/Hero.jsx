@@ -25,7 +25,7 @@ const Hero = () => {
                         an aspiring{' '}
                         <u className="text-green-500">software engineer</u>
                     </h1>
-                    <div className="links mb-3 text-3xl text-green-500">
+                    <div className="links mb-3 mt-2 text-3xl text-green-500">
                         <a
                             target="_blank"
                             rel="noreferrer"
@@ -46,12 +46,12 @@ const Hero = () => {
                             <FontAwesomeIcon icon={faGithubAlt} />
                         </a>
                     </div>
-                    <div className="mt-2 mb-3">
+                    <div className="mt-2 mb-6">
                         <a href="/" className="text-green-400">
                             himel777hussain@gmail.com
                         </a>
                     </div>
-                    <p className="mb-8 leading-relaxed">
+                    <p className="mb-8 leading-relaxed w-11/12">
                         I am an aspiring software engineer who is looking for
                         opportunity to work with a great team to enhance
                         knowledge to become a great software engineer and build
