@@ -30,6 +30,7 @@ const ContactForm = () => {
                         name="contact"
                         data-netlify="true"
                         data-netlify-honeypot="bot-field"
+                        onSubmit={notify}
                     >
                         <input type="hidden" name="form-name" value="contact" />
                         <div hidden>
@@ -87,7 +88,6 @@ const ContactForm = () => {
                                 <button
                                     type="submit"
                                     className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
-                                    onClick={notify}
                                 >
                                     Send
                                 </button>
