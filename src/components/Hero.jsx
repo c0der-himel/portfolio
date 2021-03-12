@@ -51,7 +51,7 @@ const Hero = () => {
                             himel777hussain@gmail.com
                         </a>
                     </div>
-                    <p className="mb-8 leading-relaxed w-11/12">
+                    <p className="mb-8 text-lg leading-relaxed">
                         I am an aspiring software engineer who is looking for
                         opportunity to work with a great team to enhance
                         knowledge to become a great software engineer and build
