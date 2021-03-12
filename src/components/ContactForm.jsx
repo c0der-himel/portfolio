@@ -15,7 +15,6 @@ const ContactForm = () => {
                 </div>
                 <div className="lg:w-1/2 md:w-2/3 mx-auto">
                     <form
-                        action="/success/"
                         method="post"
                         name="contact"
                         data-netlify="true"
