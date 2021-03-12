@@ -5,8 +5,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Success from './components/Success';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
     return (

@@ -1,4 +1,10 @@
 import hero from '../assets/images/hero/hero.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faLinkedinIn,
+    faGithubAlt,
+    faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
 
 const Hero = () => {
     return (
@@ -26,10 +32,10 @@ const Hero = () => {
                             href="https://www.linkedin.com/in/shahadat-himel/"
                             className="mr-5"
                         >
-                            <i className="fab fa-linkedin-in"></i>
+                            <FontAwesomeIcon icon={faLinkedinIn} />
                         </a>
                         <a href="/" className="mr-5">
-                            <i className="fab fa-instagram"></i>
+                            <FontAwesomeIcon icon={faInstagram} />
                         </a>
                         <a
                             target="_blank"
@@ -37,7 +43,7 @@ const Hero = () => {
                             href="https://github.com/c0der-himel"
                             className="mr-5"
                         >
-                            <i className="fab fa-github-alt"></i>
+                            <FontAwesomeIcon icon={faGithubAlt} />
                         </a>
                     </div>
                     <div className="mt-2 mb-3">

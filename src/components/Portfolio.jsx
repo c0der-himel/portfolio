@@ -20,7 +20,11 @@ const Portfolio = () => {
                 <div className="flex flex-wrap md:-m-2 -m-1">
                     <div className="flex flex-wrap w-1/2">
                         <div className="md:p-2 p-1 w-1/2 border border-green-500">
-                            <a href="/">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/c0der-himel/fix-your-first-bug"
+                            >
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block"
@@ -29,7 +33,11 @@ const Portfolio = () => {
                             </a>
                         </div>
                         <div className="md:p-2 p-1 w-1/2 border border-green-500">
-                            <a href="/">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/c0der-himel/pizza-house"
+                            >
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block"
@@ -38,7 +46,11 @@ const Portfolio = () => {
                             </a>
                         </div>
                         <div className="md:p-2 p-1 w-full border border-green-500">
-                            <a href="/">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/c0der-himel/laravel-rest-api"
+                            >
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block"
@@ -49,7 +61,11 @@ const Portfolio = () => {
                     </div>
                     <div className="flex flex-wrap w-1/2">
                         <div className="md:p-2 p-1 w-full border border-green-500">
-                            <a href="/">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/c0der-himel/RESTFul-API-with-ExpressJS-MongoDB"
+                            >
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block"
@@ -58,7 +74,11 @@ const Portfolio = () => {
                             </a>
                         </div>
                         <div className="md:p-2 p-1 w-1/2 border border-green-500">
-                            <a href="/">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/c0der-himel/vscode-web-dev-extension-pack"
+                            >
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block"
@@ -67,7 +87,11 @@ const Portfolio = () => {
                             </a>
                         </div>
                         <div className="md:p-2 p-1 w-1/2 border border-green-500">
-                            <a href="/">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://github.com/c0der-himel/COVID-19-Self-Assessment-System"
+                            >
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block"
