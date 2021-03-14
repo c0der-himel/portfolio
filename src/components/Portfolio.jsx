@@ -1,9 +1,9 @@
 import covid from '../assets/images/portfolio/covid.jpg';
-import laravelapi from '../assets/images/portfolio/laravel-api.jpg';
 import nem from '../assets/images/portfolio/nem.png';
 import opensource from '../assets/images/portfolio/open-source.png';
 import pizza from '../assets/images/portfolio/pizza.jpg';
 import vscode from '../assets/images/portfolio/vscode.png';
+import laravel from '../assets/images/portfolio/laravel0.png';
 
 const Portfolio = () => {
     return (
@@ -54,7 +54,7 @@ const Portfolio = () => {
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block"
-                                    src={laravelapi}
+                                    src={laravel}
                                 />
                             </a>
                         </div>
