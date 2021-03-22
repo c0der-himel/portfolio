@@ -9,24 +9,24 @@ import Success from './components/Success';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
-    return (
-        <Router>
-            <div className="App">
-                <Header />
-                <Hero />
-                <AboutMe />
-                <Skills />
-                <Portfolio />
-                <ContactForm />
-                <Switch>
-                    <Route exact path="/success">
-                        <Success />
-                    </Route>
-                </Switch>
-                <Footer />
-            </div>
-        </Router>
-    );
+  return (
+    <Router>
+      <div className="App">
+        <Header />
+        <Hero />
+        <AboutMe />
+        <Skills />
+        <Portfolio />
+        <ContactForm />
+        <Switch>
+          <Route exact path="/success">
+            <Success />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
