@@ -23,7 +23,7 @@ const AboutMe = () => {
             </div>
             <div className="flex flex-col items-center text-center justify-center">
               <h2 className="font-medium title-font mt-4 text-white text-lg">
-                MD. Shahdat Hussain Himel
+                MD. Shahadat Hussain Himel
               </h2>
               <div className="w-12 h-1 bg-green-500 rounded mt-2 mb-4"></div>
               <p className="text-base text-gray-400">
