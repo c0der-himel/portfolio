@@ -116,7 +116,7 @@ const Skills = () => {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span className="title-font font-medium text-white">React</span>
+              <span className="title-font font-medium text-white">ReactJS</span>
             </div>
           </div>
           <div className="p-2 sm:w-1/3 w-full">
@@ -133,7 +133,7 @@ const Skills = () => {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span className="title-font font-medium text-white">PHP</span>
+              <span className="title-font font-medium text-white">NodeJS</span>
             </div>
           </div>
           <div className="p-2 sm:w-1/3 w-full">
@@ -150,7 +150,9 @@ const Skills = () => {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span className="title-font font-medium text-white">Laravel</span>
+              <span className="title-font font-medium text-white">
+                ExpressJS
+              </span>
             </div>
           </div>
           <div className="p-2 sm:w-1/3 w-full">
@@ -167,7 +169,7 @@ const Skills = () => {
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span className="title-font font-medium text-white">MySQL</span>
+              <span className="title-font font-medium text-white">MongoDB</span>
             </div>
           </div>
           <div className="p-2 sm:w-1/3 w-full">

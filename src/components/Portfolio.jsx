@@ -445,6 +445,25 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+          <a
+            href="https://github.com/c0der-himel"
+            target="_blank"
+            rel="noreferrer"
+            className="flex mx-auto items-center text-white bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-base mt-16"
+          >
+            Github
+            <svg
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              className="w-4 h-4 ml-1"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
         </div>
       </div>
     </section>
