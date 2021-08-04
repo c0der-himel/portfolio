@@ -34,10 +34,16 @@ const Header = () => {
             Skills
           </a>
           <a
+            href="#experience"
+            className="mr-5 hover:text-green-500 cursor-pointer"
+          >
+            Experience
+          </a>
+          <a
             href="#portfolio"
             className="mr-5 hover:text-green-500 cursor-pointer"
           >
-            Portfolio
+            Personal Projects
           </a>
           <a
             href="#contact"

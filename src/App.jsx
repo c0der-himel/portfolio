@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Success from './components/Success';
+import Experience from './components/Experience';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <AboutMe />
         <Skills />
+        <Experience />
         <Portfolio />
         <ContactForm />
         <Switch>
