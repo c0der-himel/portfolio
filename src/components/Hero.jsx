@@ -1,10 +1,6 @@
 import hero from '../assets/images/hero/hero.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faLinkedinIn,
-  faGithubAlt,
-  faInstagram,
-} from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
 const Hero = () => {
   return (
@@ -32,9 +28,6 @@ const Hero = () => {
               className="mr-5"
             >
               <FontAwesomeIcon icon={faLinkedinIn} />
-            </a>
-            <a href="/" className="mr-5">
-              <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a
               target="_blank"
