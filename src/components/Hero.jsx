@@ -64,7 +64,7 @@ const Hero = () => {
               rel="noreferrer"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
-              Download Resume
+              Resume
             </a>
           </div>
         </div>
