@@ -124,7 +124,7 @@ const Portfolio = () => {
                   Back End Project
                 </h2>
                 <h1 className="title-font text-lg font-medium text-white mb-3">
-                  RESTFul-API
+                  NodeJS REST API
                 </h1>
                 <p className="leading-relaxed mb-3">
                   👨‍💻 A RESTFul API With NodeJS ExpressJS & MongoDB 🚀
