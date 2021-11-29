@@ -4,6 +4,9 @@ import opensource from '../assets/images/portfolio/open-source.png';
 import pizza from '../assets/images/portfolio/pizza.jpg';
 import vscode from '../assets/images/portfolio/vscode.png';
 import laravel from '../assets/images/portfolio/laravel0.png';
+import travel from '../assets/images/portfolio/travel-now.png';
+import doctor from '../assets/images/portfolio/doctor.png';
+import car from '../assets/images/portfolio/car-shop.png';
 
 const Portfolio = () => {
   return (
@@ -18,6 +21,259 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="flex flex-wrap -m-4">
+          <div className="p-4 md:w-1/3">
+            <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+              <img
+                className="lg:h-60 md:h-36 w-full object-cover object-center"
+                src={travel}
+                alt="blog"
+              />
+              <div className="p-6">
+                <h2
+                  className="
+                    tracking-widest
+                    text-xs
+                    title-font
+                    font-medium
+                    text-gray-500
+                    mb-1
+                  "
+                >
+                  Full Stack Project
+                </h2>
+                <h1 className="title-font text-lg font-medium text-white mb-3">
+                  Travel Now
+                </h1>
+                <p className="leading-relaxed mb-3">
+                  🌍 Travel Now is a travel website. Where people can select
+                  destination & book them. Manage the bookings. And all the
+                  stuff.
+                </p>
+                <div className="flex items-center flex-wrap justify-between">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/c0der-himel/travel-now-client"
+                    className="
+                      text-green-400
+                      inline-flex
+                      items-center
+                      md:mb-2
+                      lg:mb-0
+                    "
+                  >
+                    Github
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://travel-now-v1.web.app/"
+                    className="
+                      text-green-400
+                      inline-flex
+                      items-center
+                      md:mb-2
+                      lg:mb-0
+                    "
+                  >
+                    Live Site
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 md:w-1/3">
+            <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+              <img
+                className="lg:h-60 md:h-36 w-full object-cover object-center"
+                src={doctor}
+                alt="blog"
+              />
+              <div className="p-6">
+                <h2
+                  className="
+                    tracking-widest
+                    text-xs
+                    title-font
+                    font-medium
+                    text-gray-500
+                    mb-1
+                  "
+                >
+                  Front End Project
+                </h2>
+                <h1 className="title-font text-lg font-medium text-white mb-3">
+                  Doctor 24/7
+                </h1>
+                <p className="leading-relaxed mb-3">
+                  🧑‍⚕️ Doctor 24/7 is a doctors portal website. Where people
+                  can select their doctor & get appointment.
+                </p>
+                <div className="flex items-center flex-wrap justify-between">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/c0der-himel/doctor24-7"
+                    className="
+                      text-green-400
+                      inline-flex
+                      items-center
+                      md:mb-2
+                      lg:mb-0
+                    "
+                  >
+                    Github
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://doctor247-96d97.web.app/"
+                    className="
+                      text-green-400
+                      inline-flex
+                      items-center
+                      md:mb-2
+                      lg:mb-0
+                    "
+                  >
+                    Live Site
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 md:w-1/3">
+            <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+              <img
+                className="lg:h-60 md:h-36 w-full object-cover object-center"
+                src={car}
+                alt="blog"
+              />
+              <div className="p-6">
+                <h2
+                  className="
+                    tracking-widest
+                    text-xs
+                    title-font
+                    font-medium
+                    text-gray-500
+                    mb-1
+                  "
+                >
+                  Full Stack Project
+                </h2>
+                <h1 className="title-font text-lg font-medium text-white mb-3">
+                  Car Shop
+                </h1>
+                <p className="leading-relaxed mb-3">
+                  🚗 Car Shop is a car selling website. Where people can select
+                  car & purchase them. Manage the bookings. And all the stuff.
+                </p>
+                <div className="flex items-center flex-wrap justify-between">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/c0der-himel/car-shop-client"
+                    className="
+                      text-green-400
+                      inline-flex
+                      items-center
+                      md:mb-2
+                      lg:mb-0
+                    "
+                  >
+                    Github
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://audi-v1.web.app/"
+                    className="
+                      text-green-400
+                      inline-flex
+                      items-center
+                      md:mb-2
+                      lg:mb-0
+                    "
+                  >
+                    Live Site
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="p-4 md:w-1/3">
             <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
               <img

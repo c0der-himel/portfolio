@@ -18,7 +18,7 @@ const Hero = () => {
             hey, I'm Himel
           </h3>
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            an aspiring <u className="text-green-500">software engineer</u>
+            Software Engineer and Full Stack Developer
           </h1>
           <div className="links mb-3 mt-2 text-3xl text-green-500">
             <a
@@ -59,7 +59,7 @@ const Hero = () => {
               Hire Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1QxSdo8M60pl-Ax6Zbfl8AHYal0tS1Oqw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1joNzdRabBLalbqlCWTVfSW0e-Zezndat/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"

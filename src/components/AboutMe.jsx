@@ -27,17 +27,17 @@ const AboutMe = () => {
               </h2>
               <div className="w-12 h-1 bg-green-500 rounded mt-2 mb-4"></div>
               <p className="text-base text-gray-400">
-                an aspiring software engineer
+                software engineer & full stack developer{' '}
               </p>
             </div>
           </div>
           <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
             <p className="leading-relaxed text-lg mb-4">
-              I am an aspiring software engineer, i am from Dhaka, Bangladesh. I
-              am looking for opportunity to work with a great team to enhance
-              knowledge to become a great software engineer and build something
-              meaningful for future generations. I love to code & build new
-              things which will benefit others. I love to spend time with my
+              I am a software engineer & full stack developer, i am from Dhaka,
+              Bangladesh. I am looking for opportunity to work with a great team
+              to enhance knowledge to become a great software engineer and build
+              something meaningful for future generation. I love to code & build
+              new things which will benefit others. I love to spend time with my
               family and friends. My favorite place to visit is Saint Martin. I
               love to help other and explain things which I am passionate about.
             </p>

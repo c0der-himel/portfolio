@@ -25,7 +25,7 @@ const Header = () => {
             Home
           </a>
           <a href="#about" className="mr-5 hover:text-green-500 cursor-pointer">
-            About Me
+            About
           </a>
           <a
             href="#skills"
@@ -43,7 +43,7 @@ const Header = () => {
             href="#portfolio"
             className="mr-5 hover:text-green-500 cursor-pointer"
           >
-            Personal Projects
+            Projects
           </a>
           <a
             href="#contact"
