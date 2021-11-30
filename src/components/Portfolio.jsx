@@ -7,6 +7,7 @@ import laravel from '../assets/images/portfolio/laravel0.png';
 import travel from '../assets/images/portfolio/travel-now.png';
 import doctor from '../assets/images/portfolio/doctor.png';
 import car from '../assets/images/portfolio/car-shop.png';
+import { HashLink } from 'react-router-hash-link';
 
 const Portfolio = () => {
   return (
@@ -50,10 +51,8 @@ const Portfolio = () => {
                   stuff.
                 </p>
                 <div className="flex items-center flex-wrap justify-between">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/c0der-himel/travel-now-client"
+                  <HashLink
+                    to="/details"
                     className="
                       text-green-400
                       inline-flex
@@ -62,7 +61,7 @@ const Portfolio = () => {
                       lg:mb-0
                     "
                   >
-                    Github
+                    Details
                     <svg
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
@@ -75,7 +74,7 @@ const Portfolio = () => {
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </HashLink>
                   <a
                     target="_blank"
                     rel="noreferrer"
@@ -134,10 +133,8 @@ const Portfolio = () => {
                   can select their doctor & get appointment.
                 </p>
                 <div className="flex items-center flex-wrap justify-between">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/c0der-himel/doctor24-7"
+                  <HashLink
+                    to="/detailsdoc"
                     className="
                       text-green-400
                       inline-flex
@@ -146,7 +143,7 @@ const Portfolio = () => {
                       lg:mb-0
                     "
                   >
-                    Github
+                    Details
                     <svg
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
@@ -159,7 +156,7 @@ const Portfolio = () => {
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </HashLink>
                   <a
                     target="_blank"
                     rel="noreferrer"
@@ -218,10 +215,8 @@ const Portfolio = () => {
                   car & purchase them. Manage the bookings. And all the stuff.
                 </p>
                 <div className="flex items-center flex-wrap justify-between">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/c0der-himel/car-shop-client"
+                  <HashLink
+                    to="/detailscar"
                     className="
                       text-green-400
                       inline-flex
@@ -230,7 +225,7 @@ const Portfolio = () => {
                       lg:mb-0
                     "
                   >
-                    Github
+                    Details
                     <svg
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
@@ -243,7 +238,7 @@ const Portfolio = () => {
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </HashLink>
                   <a
                     target="_blank"
                     rel="noreferrer"

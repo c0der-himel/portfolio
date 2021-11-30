@@ -8,25 +8,49 @@ import Skills from './components/Skills';
 import Success from './components/Success';
 import Experience from './components/Experience';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Details from './components/Details';
+import PageNotFound from './components/PageNotFound';
+import DetailsCar from './components/DetailsCar';
+import DetailsDoc from './components/DetailsDoc';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
-        <Hero />
-        <AboutMe />
-        <Skills />
-        <Experience />
-        <Portfolio />
-        <ContactForm />
-        <Switch>
-          <Route exact path="/success">
-            <Success />
-          </Route>
-        </Switch>
-        <Footer />
-      </div>
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Hero />
+          <AboutMe />
+          <Skills />
+          <Experience />
+          <Portfolio />
+          <ContactForm />
+        </Route>
+        <Route exact path="/home">
+          <Hero />
+          <AboutMe />
+          <Skills />
+          <Experience />
+          <Portfolio />
+          <ContactForm />
+        </Route>
+        <Route exact path="/success">
+          <Success />
+        </Route>
+        <Route exact path="/detailscar">
+          <DetailsCar />
+        </Route>
+        <Route exact path="/details">
+          <Details />
+        </Route>
+        <Route exact path="/detailsdoc">
+          <DetailsDoc />
+        </Route>
+        <Route exact path="*">
+          <PageNotFound />
+        </Route>
+      </Switch>
+      <Footer />
     </Router>
   );
 }

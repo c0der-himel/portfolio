@@ -1,9 +1,11 @@
+import { HashLink } from 'react-router-hash-link';
+
 const Header = () => {
   return (
     <header className="text-gray-400 bg-gray-900 body-font sticky top-0">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center z-50">
-        <a
-          href="/"
+        <HashLink
+          to="/"
           className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
         >
           <svg
@@ -19,38 +21,44 @@ const Header = () => {
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
           <span className="ml-3 text-xl">Himel</span>
-        </a>
+        </HashLink>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <a href="#home" className="mr-5 hover:text-green-500 cursor-pointer">
+          <HashLink
+            to="/home#home"
+            className="mr-5 hover:text-green-500 cursor-pointer"
+          >
             Home
-          </a>
-          <a href="#about" className="mr-5 hover:text-green-500 cursor-pointer">
+          </HashLink>
+          <HashLink
+            to="/home#about"
+            className="mr-5 hover:text-green-500 cursor-pointer"
+          >
             About
-          </a>
-          <a
-            href="#skills"
+          </HashLink>
+          <HashLink
+            to="/home#skills"
             className="mr-5 hover:text-green-500 cursor-pointer"
           >
             Skills
-          </a>
-          <a
-            href="#experience"
+          </HashLink>
+          <HashLink
+            to="/home#experience"
             className="mr-5 hover:text-green-500 cursor-pointer"
           >
             Experience
-          </a>
-          <a
-            href="#portfolio"
+          </HashLink>
+          <HashLink
+            to="/home#portfolio"
             className="mr-5 hover:text-green-500 cursor-pointer"
           >
             Projects
-          </a>
-          <a
-            href="#contact"
+          </HashLink>
+          <HashLink
+            to="/home#contact"
             className="mr-5 hover:text-green-500 cursor-pointer"
           >
             Contact
-          </a>
+          </HashLink>
         </nav>
         <a
           href="https://www.linkedin.com/in/shahadat-himel/"
