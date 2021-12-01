@@ -54,6 +54,12 @@ const Header = () => {
             Projects
           </HashLink>
           <HashLink
+            to="/blog"
+            className="mr-5 hover:text-green-500 cursor-pointer"
+          >
+            Blog
+          </HashLink>
+          <HashLink
             to="/home#contact"
             className="mr-5 hover:text-green-500 cursor-pointer"
           >

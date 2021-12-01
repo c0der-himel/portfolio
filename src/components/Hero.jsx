@@ -1,6 +1,7 @@
 import hero from '../assets/images/hero/hero.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
+import { HashLink } from 'react-router-hash-link';
 
 const Hero = () => {
   return (
@@ -46,9 +47,19 @@ const Hero = () => {
           <p className="mb-8 text-lg leading-relaxed">
             I build web applications with modern technologies like MERN stack,
             commit my code on{' '}
-            <span className="font-bold text-green-500 underline">Github</span>{' '}
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/c0der-himel"
+              className="font-bold text-green-500 underline"
+            >
+              Github
+            </a>{' '}
             and write on my{' '}
-            <span className="font-bold text-green-500 underline">Blog</span>.
+            <HashLink to="/blog" className="font-bold text-green-500 underline">
+              Blog
+            </HashLink>
+            .
           </p>
           <div className="flex justify-center">
             <a

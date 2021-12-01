@@ -12,6 +12,7 @@ import Details from './components/Details';
 import PageNotFound from './components/PageNotFound';
 import DetailsCar from './components/DetailsCar';
 import DetailsDoc from './components/DetailsDoc';
+import Blog from './components/Blog';
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
         </Route>
         <Route exact path="/detailsdoc">
           <DetailsDoc />
+        </Route>
+        <Route exact path="/blog">
+          <Blog />
         </Route>
         <Route exact path="*">
           <PageNotFound />
