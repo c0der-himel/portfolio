@@ -90,7 +90,7 @@ const Experience = () => {
               </span>
             </div>
           </div>
-          <div className="p-12 md:w-1/2 flex flex-col items-start">
+          {/* <div className="p-12 md:w-1/2 flex flex-col items-start">
             <span
               className="
                 inline-block
@@ -186,7 +186,7 @@ const Experience = () => {
                 Present
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
