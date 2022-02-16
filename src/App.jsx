@@ -31,7 +31,7 @@ function App() {
           <Hero />
           <AboutMe />
           <Skills />
-          <Experience />
+//           <Experience />
           <Portfolio />
           <ContactForm />
         </Route>
